@@ -1,0 +1,15 @@
+#spring.main.allow-circular-references = true
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://v88684674:1234nayan@cluster0.zuugcwj.mongodb.net/?retryWrites=true&w=majority
+      database: journaldb
+      auto-index-creation: true
+
+  main:
+    allow-circular-references: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
